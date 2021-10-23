@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng=1.0.dtd">
+
+<suite name = "SQA-assignment">
+    <listeners>
+        <listener class-name = "com.PHPtravelers.qa.extentreportlistner.ExtentReporterNG"/>
+    </listeners>
+    <test name = "PHPtravels Demo">
+        <classes>
+            <class name = "com.PHPtravelers.qa.testcases.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
