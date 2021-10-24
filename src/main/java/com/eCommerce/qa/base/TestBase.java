@@ -30,7 +30,7 @@ public class TestBase {
         String browserName = properties.getProperty("browser");
 
         if(browserName.equals("chrome")){
-            System.setProperty("webdriver.chrome.driver","E:\\ucsc_academic\\4th year\\1st sem\\Advanced SQA\\SQA-assignment\\target\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","target\\chromedriver.exe");
             driver = new ChromeDriver();
         }
 

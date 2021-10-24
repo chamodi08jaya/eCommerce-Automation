@@ -3,11 +3,11 @@
 
 <suite name = "SQA-assignment">
     <listeners>
-        <listener class-name = "com.PHPtravelers.qa.extentreportlistner.ExtentReporterNG"/>
+        <listener class-name = "com.eCommerce.qa.extentreportlistner.ExtentReporterNG"/>
     </listeners>
-    <test name = "PHPtravels Demo">
+    <test name = "eCommerce Demo">
         <classes>
-            <class name = "com.PHPtravelers.qa.testcases.LoginPageTest"/>
+            <class name = "com.eCommerce.qa.testcases.Testcases"/>
         </classes>
     </test>
 </suite>
