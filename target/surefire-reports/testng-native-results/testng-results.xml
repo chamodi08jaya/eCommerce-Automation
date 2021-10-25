@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="79933" started-at="2021-10-25T01:26:44 IST" finished-at="2021-10-25T01:28:04 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="79933" started-at="2021-10-25T01:26:44 IST" finished-at="2021-10-25T01:28:04 IST">
+      <class name="com.eCommerce.qa.testcases.Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.eCommerce.qa.testcases.Testcases@42f93a98]" name="setup" is-config="true" duration-ms="33259" started-at="2021-10-25T01:26:44 IST" finished-at="2021-10-25T01:27:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.eCommerce.qa.testcases.Testcases@42f93a98]" name="LoginTest" duration-ms="43575" started-at="2021-10-25T01:27:18 IST" finished-at="2021-10-25T01:28:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eCommerce.qa.testcases.Testcases@42f93a98]" name="tearDown" is-config="true" duration-ms="3061" started-at="2021-10-25T01:28:01 IST" finished-at="2021-10-25T01:28:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommerce.qa.testcases.Testcases -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

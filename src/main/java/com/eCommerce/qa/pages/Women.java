@@ -54,7 +54,7 @@ public class Women extends TestBase {
         Actions actions1 = new Actions(driver);
         actions1.moveToElement(dress2).perform();
         addtocart2.click();
-        String ConfirmationText1=driver.findElement(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[1]/h2")).getText();
+        String ConfirmationText1=driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[1]/h2")).getText();
         ConfirmationText1.contains("Product successfully added to your shopping cart");
 
         String ConfirmationText2=driver.findElement(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/h2/span[1]")).getText();
@@ -66,7 +66,7 @@ public class Women extends TestBase {
         String product2=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[2]/td[2]/p")).getText();
 
         if(product1.contains("Faded Short Sleeve T-shirts")&& product2.contains("Blouse")){
-            System.out.println("Muitiple items added to the cart");
+            System.out.println("Multiple items added to the cart");
         }
         else {
             System.out.println("Only single item added to the cart");
@@ -83,7 +83,7 @@ public class Women extends TestBase {
         agree.click();
         ProceedToCheckout4.click();
 
-        System.out.println("order confirmed");
+        System.out.println("Order Confirmed");
         return new Payment();
     }
 }

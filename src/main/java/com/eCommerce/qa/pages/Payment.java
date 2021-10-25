@@ -31,7 +31,7 @@ public class Payment extends TestBase {
             System.out.println("Order Completed: Test Case Passed");
         }
         else {
-            System.out.println("Order Not Successfull: Test Case Failed");
+            System.out.println("Order Not Successful: Test Case Failed");
         }
 
         backToOrders.click();

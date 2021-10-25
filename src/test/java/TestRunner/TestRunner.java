@@ -5,16 +5,11 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-
 @CucumberOptions(
-        features = "src\test\resources\feature",
+        features = {"src/test/resource/features"},
         glue = {"stepDefinitions"},
-        //dryRun = false,
-        //monochrome = true,
-        //plugin = {"pretty", "html:target/cucumber-report",
-                //"json:target/cucumber.json"},
-        format = {"pretty", "html:target/Destination/index.html"}
-        )
+        monochrome = true,
+        plugin = {"html:target/cucumber-report-html", "json:target/cucumber-report-json.json" })
 
 public class TestRunner {
 }
