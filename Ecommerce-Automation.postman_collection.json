@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "8f394de5-f0a8-456f-b402-f4e6f3596c2c",
+		"name": "Ecommerce-Automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "T001_Get status of main page",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successfully get the web site main page\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 2000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://automationpractice.com/index.php?",
+					"protocol": "http",
+					"host": [
+						"automationpractice",
+						"com"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "T002_Post Registration data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successfully registered the data to the web site\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "id_gender: 1\r\ncustomer_firstname: Chamodi\r\ncustomer_lastname: Jayamini\r\nemail: chamodij@gmail.com\r\npasswd: ecommerce@123\r\nfirstname: Chamodi\r\nlastname: Jayamini\r\naddress1: Main+Street\r\ncity: Denver\r\nid_state: 1\r\npostcode: 10000\r\nid_country: 21\r\nphone_mobile: 123456789\r\nalias: chamodij@gmail.com\r\nemail_create: 1\r\nis_new_customer: 1\r\nback: my-account\r\nsubmitAccount: \r\n\t\t\t\t\t\t"
+				},
+				"url": {
+					"raw": "http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation",
+					"protocol": "http",
+					"host": [
+						"automationpractice",
+						"com"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "controller",
+							"value": "authentication"
+						},
+						{
+							"key": "back",
+							"value": "my-account"
+						}
+					],
+					"hash": "account-creation"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "T003_Post Request SignIn",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Given Email and Passowrd\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"personal information\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "email: chamodij@gmail.com\npasswd: ecommerce@123\nback: my-account\nSubmitLogin:",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://automationpractice.com/index.php?controller=authentication&back=my-account",
+					"protocol": "http",
+					"host": [
+						"automationpractice",
+						"com"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "controller",
+							"value": "authentication"
+						},
+						{
+							"key": "back",
+							"value": "my-account"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
