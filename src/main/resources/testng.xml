@@ -3,11 +3,15 @@
 
 <suite name = "SQA-assignment">
     <listeners>
-        <listener class-name = "com.eCommerce.qa.extentreportlistner.ExtentReporterNG"/>
+        <listener class-name = "com.eCommerce.qa.extentReportListener.ExtentReporterNG"/>
     </listeners>
     <test name = "eCommerce Demo">
         <classes>
             <class name = "com.eCommerce.qa.testcases.Testcases"/>
+            <class name = "com.eCommerce.qa.pages.LoginPage"/>
+            <class name = "com.eCommerce.qa.pages.MyAccount"/>
+            <class name = "com.eCommerce.qa.pages.Women"/>
+            <class name = "com.eCommerce.qa.pages.Payment"/>
         </classes>
     </test>
 </suite>

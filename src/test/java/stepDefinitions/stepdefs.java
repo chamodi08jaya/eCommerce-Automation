@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import com.eCommerce.qa.base.TestBase;
 import com.eCommerce.qa.util.TestUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -14,7 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.concurrent.TimeUnit;
 
-public class stepdefs {
+public class stepdefs extends TestBase {
     static Logger logger = Logger.getLogger(stepdefs.class);
 
     WebDriver driver =null;
@@ -80,8 +81,8 @@ public class stepdefs {
         driver.findElement(By.xpath("//a[@data-id-product='1' and @class='button ajax_add_to_cart_button btn btn-default']")).click();
     }
 
-    @Then("^Product successfully added to your shopping cart message is displayed$")
-    public void product_successfully_added_to_your_shopping_cart_message_is_displayed() throws Throwable {
+    @Then("^\"([^\"]*)\" message is displayed$")
+    public void message_is_displayed(String message) throws Throwable {
         String ConfirmationText=driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[1]/h2")).getText();
         ConfirmationText.contains("Product successfully added to your shopping cart");
     }
@@ -99,6 +100,8 @@ public class stepdefs {
     @Then("^user clicks Proceed to checkout button in address page$")
     public void user_clicks_Proceed_to_checkout_button_in_address_page() throws Throwable {
         driver.findElement(By.xpath("//*[@id=\"center_column\"]/form/p/button/span")).click();
+        PropertyConfigurator.configure("src\\log4j.properties");
+        logger.info("Navigate to Address Page !!");
     }
 
     @Then("^user ticks terms and condition sentence$")
@@ -109,12 +112,16 @@ public class stepdefs {
     @Then("^user clicks Proceed to checkout button in shipping page$")
     public void user_clicks_Proceed_to_checkout_button_in_shipping_page() throws Throwable {
         driver.findElement(By.xpath("//*[@id=\"form\"]/p/button/span")).click();
+        PropertyConfigurator.configure("src\\log4j.properties");
+        logger.info("Navigate to Shipping Page !!");
     }
 
     @Then("^user navigates to payment page$")
     public void user_navigates_to_payment_page() throws Throwable {
         String ConfirmationText=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/h1")).getText();
         ConfirmationText.contains("PLEASE CHOOSE YOUR PAYMENT METHOD");
+        PropertyConfigurator.configure("src\\log4j.properties");
+        logger.info("Navigate to Payment Page !!");
     }
 
     @Then("^user clicks Continue shopping button$")
@@ -153,7 +160,7 @@ public class stepdefs {
     }
 
     @Then("^confirmation message is displayed with \"([^\"]*)\"$")
-    public void confirmation_message_is_displayed_with(String arg1) throws Throwable {
+    public void confirmation_message_is_displayed_with(String message) throws Throwable {
         String ConfirmationText3=driver.findElement(By.xpath("//div[@id='center_column']/p[@class='alert alert-success']")).getText();
         // Verify that Product is ordered
         if(ConfirmationText3.contains("Your order on My Store is complete.")) {
@@ -162,6 +169,8 @@ public class stepdefs {
         else {
             System.out.println("Order Not Successful: Test Case Failed");
         }
+        PropertyConfigurator.configure("src\\log4j.properties");
+        logger.info("Your order on My Store is complete message displayed !!");
     }
 
     @Then("^user clicks Back to orders button$")
@@ -172,6 +181,8 @@ public class stepdefs {
     @Then("^user download the invoice as PDF$")
     public void user_download_the_invoice_as_PDF() throws Throwable {
         driver.findElement(By.xpath("//*[@id=\"order-list\"]/tbody/tr[1]/td[6]/a")).click();
+        PropertyConfigurator.configure("src\\log4j.properties");
+        logger.info("Invoice is downloaded !!");
     }
 
 }

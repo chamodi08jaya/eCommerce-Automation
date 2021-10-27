@@ -1,10 +1,7 @@
 package com.eCommerce.qa.testcases;
 
 import com.eCommerce.qa.base.TestBase;
-import com.eCommerce.qa.pages.LoginPage;
-import com.eCommerce.qa.pages.MyAccount;
-import com.eCommerce.qa.pages.Payment;
-import com.eCommerce.qa.pages.Women;
+import com.eCommerce.qa.pages.*;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.AfterMethod;

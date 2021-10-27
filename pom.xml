@@ -86,6 +86,13 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
 
     <properties>
@@ -115,9 +122,10 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>ExeecuteAutomation</projectName>
+                            <projectName>E-Commerce Application</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <skippedFails>true</skippedFails>
                         </configuration>
                     </execution>
                 </executions>

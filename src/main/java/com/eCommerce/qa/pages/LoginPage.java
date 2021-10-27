@@ -19,20 +19,15 @@ public class LoginPage extends TestBase {
 
     public LoginPage(String email, String password){
         PageFactory.initElements(driver,this);
-
-        Email.sendKeys(email);
-        Password.sendKeys(password);
-        loginButton.submit();
-
-        String actualUrl="http://automationpractice.com/index.php?controller=authentication";
-        String expectedUrl= driver.getCurrentUrl();
-        Assert.assertEquals(actualUrl, expectedUrl);
     }
 
     public MyAccount login(String email, String password){
         Email.sendKeys(email);
         Password.sendKeys(password);
         loginButton.submit();
+        String actualUrl="http://automationpractice.com/index.php?controller=authentication";
+        String expectedUrl= driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
         return new MyAccount();
     }
 }

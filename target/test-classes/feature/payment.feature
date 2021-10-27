@@ -10,7 +10,7 @@ Feature: Payment process
   Scenario: User pays for a single item through check
     When user clicks "WOMEN" tab from top menu bar
     Then user clicks Add to cart button on selected dress
-    Then Product successfully added to your shopping cart message is displayed
+    Then "Product successfully added to your shopping cart" message is displayed
     When user clicks Proceed to checkout button
     Then user clicks Proceed to checkout button in summary page
     Then user clicks Proceed to checkout button in address page
@@ -29,7 +29,7 @@ Feature: Payment process
     Then user clicks Add to cart button on selected dress
     Then user clicks Continue shopping button
     Then user adds another item to the cart
-    Then Product successfully added to your shopping cart message is displayed
+    Then "Product successfully added to your shopping cart" message is displayed
     When user clicks Proceed to checkout button
     Then multiple items are displayed in the summary table
     Then user clicks Proceed to checkout button in summary page
