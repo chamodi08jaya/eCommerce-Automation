@@ -38,25 +38,50 @@ formatter.step({
   "name": "user navigates into MyAccount Page",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.browser_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7382032600,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.login_page_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 9841603900,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "sachini@gmail.com",
+      "offset": 22
+    },
+    {
+      "val": "12345",
+      "offset": 60
+    }
+  ],
+  "location": "stepdefs.user_adds_email_with_and_password_with(String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 205730400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_the_login_button()"
+});
+formatter.result({
+  "duration": 6071050400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_into_MyAccount_Page()"
+});
+formatter.result({
+  "duration": 53030500,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 10,
@@ -116,45 +141,87 @@ formatter.step({
   "name": "browser is closed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "WOMEN",
+      "offset": 13
+    }
+  ],
+  "location": "stepdefs.user_clicks_tab_from_top_menu_bar(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 9622677500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Add_to_cart_button_on_selected_dress()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 241723100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "Product successfully added to your shopping cart",
+      "offset": 1
+    }
+  ],
+  "location": "stepdefs.message_is_displayed(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 34354000,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 12103635500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_summary_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2431098600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_address_page()"
+});
+formatter.result({
+  "duration": 3446008500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_ticks_terms_and_condition_sentence()"
+});
+formatter.result({
+  "duration": 70233500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_shipping_page()"
+});
+formatter.result({
+  "duration": 4261982400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_to_payment_page()"
+});
+formatter.result({
+  "duration": 33059300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.browser_is_closed()"
+});
+formatter.result({
+  "duration": 728598600,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -188,25 +255,50 @@ formatter.step({
   "name": "user navigates into MyAccount Page",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.browser_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1837741100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.login_page_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7291268000,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "sachini@gmail.com",
+      "offset": 22
+    },
+    {
+      "val": "12345",
+      "offset": 60
+    }
+  ],
+  "location": "stepdefs.user_adds_email_with_and_password_with(String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 200353800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_the_login_button()"
+});
+formatter.result({
+  "duration": 4731317700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_into_MyAccount_Page()"
+});
+formatter.result({
+  "duration": 39332400,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 22,
@@ -281,57 +373,108 @@ formatter.step({
   "name": "browser is closed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "WOMEN",
+      "offset": 13
+    }
+  ],
+  "location": "stepdefs.user_clicks_tab_from_top_menu_bar(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 4573909400,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Add_to_cart_button_on_selected_dress()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 212782900,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Continue_shopping_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3855533100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_adds_another_item_to_the_cart()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 358422600,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "Product successfully added to your shopping cart",
+      "offset": 1
+    }
+  ],
+  "location": "stepdefs.message_is_displayed(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 33580000,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7127777000,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "stepdefs.multiple_items_are_displayed_in_the_summary_table()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 55310100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_summary_page()"
+});
+formatter.result({
+  "duration": 2695795500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_address_page()"
+});
+formatter.result({
+  "duration": 1900789200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_ticks_terms_and_condition_sentence()"
+});
+formatter.result({
+  "duration": 73860400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_shipping_page()"
+});
+formatter.result({
+  "duration": 2953622700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_to_payment_page()"
+});
+formatter.result({
+  "duration": 32572700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.browser_is_closed()"
+});
+formatter.result({
+  "duration": 793541200,
+  "status": "passed"
 });
 formatter.uri("login.feature");
 formatter.feature({
@@ -379,29 +522,57 @@ formatter.step({
   "name": "browser is closed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.browser_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1929567900,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.login_page_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6358890200,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "sachini@gmail.com",
+      "offset": 22
+    },
+    {
+      "val": "12345",
+      "offset": 60
+    }
+  ],
+  "location": "stepdefs.user_adds_email_with_and_password_with(String,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 207303900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_the_login_button()"
+});
+formatter.result({
+  "duration": 6748912600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_into_MyAccount_Page()"
+});
+formatter.result({
+  "duration": 44630800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.browser_is_closed()"
+});
+formatter.result({
+  "duration": 698830300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 11,
@@ -441,29 +612,57 @@ formatter.step({
   "name": "browser is closed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.browser_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2034890600,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.login_page_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7534708700,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "nimal@gmail.com",
+      "offset": 22
+    },
+    {
+      "val": "abc%45",
+      "offset": 58
+    }
+  ],
+  "location": "stepdefs.user_adds_email_with_and_password_with(String,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 192426500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_the_login_button()"
+});
+formatter.result({
+  "duration": 2551292600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_cannot_login_to_system_with_error_message()"
+});
+formatter.result({
+  "duration": 36107600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.browser_is_closed()"
+});
+formatter.result({
+  "duration": 734680200,
+  "status": "passed"
 });
 formatter.uri("payment.feature");
 formatter.feature({
@@ -505,25 +704,50 @@ formatter.step({
   "name": "user navigates into MyAccount Page",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.browser_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1709461100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.login_page_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6663582000,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "sachini@gmail.com",
+      "offset": 22
+    },
+    {
+      "val": "12345",
+      "offset": 60
+    }
+  ],
+  "location": "stepdefs.user_adds_email_with_and_password_with(String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 196685100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_the_login_button()"
+});
+formatter.result({
+  "duration": 3167996200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_into_MyAccount_Page()"
+});
+formatter.result({
+  "duration": 40087300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 10,
@@ -608,65 +832,128 @@ formatter.step({
   "name": "browser is closed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "WOMEN",
+      "offset": 13
+    }
+  ],
+  "location": "stepdefs.user_clicks_tab_from_top_menu_bar(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3639640400,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Add_to_cart_button_on_selected_dress()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 236664700,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "Product successfully added to your shopping cart",
+      "offset": 1
+    }
+  ],
+  "location": "stepdefs.message_is_displayed(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 26456400,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 4468819000,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_summary_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1898011500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_address_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1658614000,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_ticks_terms_and_condition_sentence()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 65911300,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_shipping_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 2204489300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_to_payment_page()"
+});
+formatter.result({
+  "duration": 27764300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_select_Pay_by_check_option()"
+});
+formatter.result({
+  "duration": 1926828900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_I_confirm_my_order_button()"
+});
+formatter.result({
+  "duration": 4015880000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Your order on My Store is complete.",
+      "offset": 40
+    }
+  ],
+  "location": "stepdefs.confirmation_message_is_displayed_with(String)"
+});
+formatter.result({
+  "duration": 28893100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Back_to_orders_button()"
+});
+formatter.result({
+  "duration": 3182619900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_download_the_invoice_as_PDF()"
+});
+formatter.result({
+  "duration": 107387100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.browser_is_closed()"
+});
+formatter.result({
+  "duration": 736874700,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -700,25 +987,50 @@ formatter.step({
   "name": "user navigates into MyAccount Page",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.browser_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2148992700,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.login_page_is_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7268731800,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "sachini@gmail.com",
+      "offset": 22
+    },
+    {
+      "val": "12345",
+      "offset": 60
+    }
+  ],
+  "location": "stepdefs.user_adds_email_with_and_password_with(String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 196291600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_the_login_button()"
+});
+formatter.result({
+  "duration": 3320449900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_into_MyAccount_Page()"
+});
+formatter.result({
+  "duration": 43539300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 27,
@@ -818,76 +1130,148 @@ formatter.step({
   "name": "browser is closed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "WOMEN",
+      "offset": 13
+    }
+  ],
+  "location": "stepdefs.user_clicks_tab_from_top_menu_bar(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6281879300,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Add_to_cart_button_on_selected_dress()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 239482800,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Continue_shopping_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2724321700,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_adds_another_item_to_the_cart()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 336177800,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "Product successfully added to your shopping cart",
+      "offset": 1
+    }
+  ],
+  "location": "stepdefs.message_is_displayed(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 48286900,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 6383312800,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.multiple_items_are_displayed_in_the_summary_table()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 69305500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_summary_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1892007000,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_address_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1889046600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_ticks_terms_and_condition_sentence()"
+});
+formatter.result({
+  "duration": 65135200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Proceed_to_checkout_button_in_shipping_page()"
+});
+formatter.result({
+  "duration": 3828445400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_navigates_to_payment_page()"
+});
+formatter.result({
+  "duration": 31619600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_select_Pay_by_check_option()"
+});
+formatter.result({
+  "duration": 2156656300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_I_confirm_my_order_button()"
+});
+formatter.result({
+  "duration": 7303564300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Your order on My Store is complete.",
+      "offset": 40
+    }
+  ],
+  "location": "stepdefs.confirmation_message_is_displayed_with(String)"
+});
+formatter.result({
+  "duration": 29122300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_clicks_Back_to_orders_button()"
+});
+formatter.result({
+  "duration": 5287164600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.user_download_the_invoice_as_PDF()"
+});
+formatter.result({
+  "duration": 91819500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefs.browser_is_closed()"
+});
+formatter.result({
+  "duration": 727085900,
+  "status": "passed"
 });
 });
