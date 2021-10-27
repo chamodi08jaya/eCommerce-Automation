@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SQA-assignment" />
         <module name="phptravels-Automation" />
+        <module name="eCommerce-Automation" />
       </profile>
     </annotationProcessing>
   </component>
