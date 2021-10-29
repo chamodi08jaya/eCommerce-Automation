@@ -40,6 +40,6 @@ This repository included:
         
         c. Test Runner class Cucumber
         
-8. Web services available for above identified test scenarios and test them usingPostman
+8. Web services available for above identified test scenarios and test them using Postman
 
 9. Performance test script using JMETER for above identified test scenarios and measure response time
