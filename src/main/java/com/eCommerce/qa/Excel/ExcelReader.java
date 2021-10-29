@@ -1,12 +1,11 @@
+package com.eCommerce.qa.Excel;
+
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
-
-
-package com.eCommerce.qa.Excel;
 
 public class ExcelReader {
     public static final String SAMPLE_XLSX_FILE_PATH = "./sample-xls-file.xlsx";
