@@ -72,6 +72,7 @@ public class stepdefs extends TestBase {
     @When("^user clicks \"([^\"]*)\" tab from top menu bar$")
     public void user_clicks_tab_from_top_menu_bar(String WOMEN) throws Throwable {
         driver.findElement(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[1]/a")).click();
+        logger.info("User clicks WOMEN tab from menu bar !!");
     }
 
     @Then("^user clicks Add to cart button on selected dress$")
@@ -85,6 +86,7 @@ public class stepdefs extends TestBase {
     public void message_is_displayed(String message) throws Throwable {
         String ConfirmationText=driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[1]/h2")).getText();
         ConfirmationText.contains("Product successfully added to your shopping cart");
+        logger.info("Product successfully added to your shopping cart");
     }
 
     @When("^user clicks Proceed to checkout button$")
@@ -107,6 +109,7 @@ public class stepdefs extends TestBase {
     @Then("^user ticks terms and condition sentence$")
     public void user_ticks_terms_and_condition_sentence() throws Throwable {
         driver.findElement(By.xpath("//*[@id=\"cgv\"]")).click();
+        logger.info("User agrees terms and conditions !!");
     }
 
     @Then("^user clicks Proceed to checkout button in shipping page$")
@@ -140,18 +143,20 @@ public class stepdefs extends TestBase {
     public void multiple_items_are_displayed_in_the_summary_table() throws Throwable {
         String product1=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[2]/p")).getText();
         String product2=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[2]/td[2]/p")).getText();
+        logger.info("Multiple items are added to the cart!!");
 
         if(product1.contains("Faded Short Sleeve T-shirts")&& product2.contains("Blouse")){
-            System.out.println("Multiple items added to the cart");
+            System.out.println("Multiple items are added to the cart");
         }
         else {
-            System.out.println("Only single item added to the cart");
+            System.out.println("Only single item is added to the cart");
         }
     }
 
     @When("^user select Pay by check option$")
     public void user_select_Pay_by_check_option() throws Throwable {
         driver.findElement(By.xpath("//*[@id=\"HOOK_PAYMENT\"]/div[2]/div/p")).click();
+        logger.info("Your payment method is Pay by check");
     }
 
     @Then("^user clicks I confirm my order button$")

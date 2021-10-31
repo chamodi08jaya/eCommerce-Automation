@@ -1,12 +1,16 @@
 package com.eCommerce.qa.pages;
 
 import com.eCommerce.qa.base.TestBase;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Payment extends TestBase {
+    static Logger logger = Logger.getLogger(Payment.class);
+
     @FindBy(xpath = "//*[@id=\"HOOK_PAYMENT\"]/div[2]/div/p")
     WebElement PayByCheck;
 
@@ -23,6 +27,8 @@ public class Payment extends TestBase {
         PageFactory.initElements(driver,this);
 
         PayByCheck.click();
+        PropertyConfigurator.configure("src\\log4j.properties");
+        logger.info("Your payment method is Pay by check");
         confirmOrder.click();
 
         String ConfirmationText3=driver.findElement(By.xpath("//div[@id='center_column']/p[@class='alert alert-success']")).getText();
@@ -36,6 +42,7 @@ public class Payment extends TestBase {
 
         backToOrders.click();
         invoice.click();
+        logger.info("payment completed");
         System.out.println("payment completed");
     }
 }

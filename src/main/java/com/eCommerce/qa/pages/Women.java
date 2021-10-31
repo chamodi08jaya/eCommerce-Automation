@@ -1,6 +1,8 @@
 package com.eCommerce.qa.pages;
 
 import com.eCommerce.qa.base.TestBase;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -8,6 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Women extends TestBase {
+    static Logger logger = Logger.getLogger(Women.class);
+
     @FindBy(xpath = "//*[@id=\"center_column\"]/ul/li[1]/div/div[2]")
     WebElement dress1;
 
@@ -48,6 +52,8 @@ public class Women extends TestBase {
         addtocart.click();
         String ConfirmationText=driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[1]/h2")).getText();
         ConfirmationText.contains("Product successfully added to your shopping cart");
+        PropertyConfigurator.configure("src\\log4j.properties");
+        logger.info("Product successfully added to your shopping cart");
 
         continueShopping.click();
 
@@ -59,6 +65,7 @@ public class Women extends TestBase {
 
         String ConfirmationText2=driver.findElement(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/h2/span[1]")).getText();
         ConfirmationText2.contains("There are 2 items in your cart.");
+        logger.info("There are 2 items in your cart.");
 
         proceedToCheckout1.click();
 
@@ -66,10 +73,10 @@ public class Women extends TestBase {
         String product2=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[2]/td[2]/p")).getText();
 
         if(product1.contains("Faded Short Sleeve T-shirts")&& product2.contains("Blouse")){
-            System.out.println("Multiple items added to the cart");
+            System.out.println("Multiple items are added to the cart");
         }
         else {
-            System.out.println("Only single item added to the cart");
+            System.out.println("Only single is item added to the cart");
         }
 
         ProceedToCheckout2.click();
@@ -82,6 +89,7 @@ public class Women extends TestBase {
 
         agree.click();
         ProceedToCheckout4.click();
+        logger.info("Order Confirmed!!");
 
         System.out.println("Order Confirmed");
         return new Payment();

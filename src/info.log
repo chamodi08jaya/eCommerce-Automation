@@ -133,3 +133,57 @@
 [main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
 [main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
 [main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
+[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
+[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
+[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
+[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
+[main] INFO  com.eCommerce.qa.pages.Women  - Product successfully added to your shopping cart
+[main] INFO  com.eCommerce.qa.pages.Women  - There are 2 items in your cart.
+[main] INFO  com.eCommerce.qa.pages.Women  - Order Confirmed!!
+[main] INFO  com.eCommerce.qa.pages.Payment  - Your payment method is Pay by check
+[main] INFO  com.eCommerce.qa.pages.Payment  - payment completed
+[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
+[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
+[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
+[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
+[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
+[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
+[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
+[main] INFO  stepDefinitions.stepdefs  - Multiple items are added to the cart!!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
+[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
+[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
+[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
+[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
+[main] INFO  stepDefinitions.stepdefs  - Your payment method is Pay by check
+[main] INFO  stepDefinitions.stepdefs  - Your order on My Store is complete message displayed !!
+[main] INFO  stepDefinitions.stepdefs  - Invoice is downloaded !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
+[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
+[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
+[main] INFO  stepDefinitions.stepdefs  - Multiple items are added to the cart!!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
+[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
+[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
+[main] INFO  stepDefinitions.stepdefs  - Your payment method is Pay by check
+[main] INFO  stepDefinitions.stepdefs  - Your order on My Store is complete message displayed !!
+[main] INFO  stepDefinitions.stepdefs  - Invoice is downloaded !!
