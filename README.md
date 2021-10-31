@@ -32,6 +32,8 @@ This repository included:
 
 6. Jenkins for Continuous integration, execute scripts via Jenkins
 
+        a. Jenkins Cucumber CI Report
+
 7. Selenium Integration with Cucumber and BDD Framework using Cucumber
 
         a. Feature File using Gherkin Language
@@ -39,6 +41,8 @@ This repository included:
         b. Step Definition file using cucumber Gherkin annotations
         
         c. Test Runner class Cucumber
+        
+        d. Cucumber Report with test results
         
 8. Web services available for above identified test scenarios and test them using Postman
 
