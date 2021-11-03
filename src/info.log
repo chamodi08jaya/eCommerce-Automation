@@ -1,189 +1,85 @@
 [main] INFO  log  - Log4j appender configuration is successful !!
 [main] INFO  log  - Log4j appender configuration is successful !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.loginStepDefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Navigate to MyAccount Page !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  - Select Women as clothing type !!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Add to cart!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Choosing Payment Method!!
-[main] INFO  com.eCommerce.qa.pages.Women  - Product successfully added to your shopping cart
-[main] INFO  com.eCommerce.qa.pages.Women  - There are 2 items in your cart.
-[main] INFO  com.eCommerce.qa.pages.Women  - Order Confirmed!!
-[main] INFO  com.eCommerce.qa.pages.Payment  - Your payment method is Pay by check
-[main] INFO  com.eCommerce.qa.pages.Payment  - payment completed
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Confirm Order!!
-[main] INFO  com.eCommerce.qa.testcases.Testcases  -  Invoice is downloaded as PDF!!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
-[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
-[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
-[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
-[main] INFO  stepDefinitions.stepdefs  - Multiple items are added to the cart!!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
-[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
-[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
-[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
-[main] INFO  stepDefinitions.stepdefs  - Your payment method is Pay by check
-[main] INFO  stepDefinitions.stepdefs  - Your order on My Store is complete message displayed !!
-[main] INFO  stepDefinitions.stepdefs  - Invoice is downloaded !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to login Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to MyAccount Page !!
-[main] INFO  stepDefinitions.stepdefs  - User clicks WOMEN tab from menu bar !!
-[main] INFO  stepDefinitions.stepdefs  - Product successfully added to your shopping cart
-[main] INFO  stepDefinitions.stepdefs  - Multiple items are added to the cart!!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Address Page !!
-[main] INFO  stepDefinitions.stepdefs  - User agrees terms and conditions !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Shipping Page !!
-[main] INFO  stepDefinitions.stepdefs  - Navigate to Payment Page !!
-[main] INFO  stepDefinitions.stepdefs  - Your payment method is Pay by check
-[main] INFO  stepDefinitions.stepdefs  - Your order on My Store is complete message displayed !!
-[main] INFO  stepDefinitions.stepdefs  - Invoice is downloaded !!
+2021-11-04 01:48:37 INFO  com.eCommerce.qa.testcases.Testcases   - Navigate to MyAccount Page !!
+2021-11-04 01:48:37 INFO  com.eCommerce.qa.testcases.Testcases   - Select Women as clothing type !!
+2021-11-04 01:48:46 INFO  com.eCommerce.qa.testcases.Testcases   -  Add to cart!!
+2021-11-04 01:48:46 INFO  com.eCommerce.qa.testcases.Testcases   -  Choosing Payment Method!!
+2021-11-04 01:48:46 INFO  com.eCommerce.qa.pages.Women   - Product successfully added to your shopping cart
+2021-11-04 01:48:52 INFO  com.eCommerce.qa.pages.Women   - There are 2 items in your cart.
+2021-11-04 01:49:57 INFO  com.eCommerce.qa.pages.Women   - Order Confirmed!!
+2021-11-04 01:50:05 INFO  com.eCommerce.qa.pages.Payment   - Your payment method is Pay by check
+2021-11-04 01:50:36 INFO  com.eCommerce.qa.pages.Payment   - payment completed
+2021-11-04 01:50:36 INFO  com.eCommerce.qa.testcases.Testcases   -  Confirm Order!!
+2021-11-04 01:50:36 INFO  com.eCommerce.qa.testcases.Testcases   -  Invoice is downloaded as PDF!!
+2021-11-04 02:02:25 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:03:13 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:03:26 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:03:38 INFO  stepDefinitions.stepdefs   - User clicks WOMEN tab from menu bar !!
+2021-11-04 02:03:46 INFO  stepDefinitions.stepdefs   - Product successfully added to your shopping cart
+2021-11-04 02:03:58 INFO  stepDefinitions.stepdefs   - Multiple items are added to the cart!!
+2021-11-04 02:04:18 INFO  stepDefinitions.stepdefs   - Navigate to Address Page !!
+2021-11-04 02:04:19 INFO  stepDefinitions.stepdefs   - User agrees terms and conditions !!
+2021-11-04 02:04:28 INFO  stepDefinitions.stepdefs   - Navigate to Shipping Page !!
+2021-11-04 02:04:28 INFO  stepDefinitions.stepdefs   - Navigate to Payment Page !!
+2021-11-04 02:04:42 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:04:59 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:05:16 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:05:40 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:05:53 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:06:08 INFO  stepDefinitions.stepdefs   - User clicks WOMEN tab from menu bar !!
+2021-11-04 02:06:08 INFO  stepDefinitions.stepdefs   - Product successfully added to your shopping cart
+2021-11-04 02:06:48 INFO  stepDefinitions.stepdefs   - Navigate to Address Page !!
+2021-11-04 02:06:48 INFO  stepDefinitions.stepdefs   - User agrees terms and conditions !!
+2021-11-04 02:06:49 INFO  stepDefinitions.stepdefs   - Navigate to Shipping Page !!
+2021-11-04 02:07:35 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:07:50 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:08:05 INFO  stepDefinitions.stepdefs   - User clicks WOMEN tab from menu bar !!
+2021-11-04 02:08:12 INFO  stepDefinitions.stepdefs   - Product successfully added to your shopping cart
+2021-11-04 02:08:29 INFO  stepDefinitions.stepdefs   - Multiple items are added to the cart!!
+2021-11-04 02:08:48 INFO  stepDefinitions.stepdefs   - Navigate to Address Page !!
+2021-11-04 02:08:48 INFO  stepDefinitions.stepdefs   - User agrees terms and conditions !!
+2021-11-04 02:08:56 INFO  stepDefinitions.stepdefs   - Navigate to Shipping Page !!
+2021-11-04 02:08:56 INFO  stepDefinitions.stepdefs   - Navigate to Payment Page !!
+2021-11-04 02:09:05 INFO  stepDefinitions.stepdefs   - Your payment method is Pay by check
+2021-11-04 02:09:21 INFO  stepDefinitions.stepdefs   - Your order on My Store is complete message displayed !!
+2021-11-04 02:09:39 INFO  stepDefinitions.stepdefs   - Invoice is downloaded !!
+2021-11-04 02:12:07 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:12:21 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:12:33 INFO  stepDefinitions.stepdefs   - User clicks WOMEN tab from menu bar !!
+2021-11-04 02:12:33 INFO  stepDefinitions.stepdefs   - Product successfully added to your shopping cart
+2021-11-04 02:13:03 INFO  stepDefinitions.stepdefs   - Navigate to Address Page !!
+2021-11-04 02:13:03 INFO  stepDefinitions.stepdefs   - User agrees terms and conditions !!
+2021-11-04 02:13:10 INFO  stepDefinitions.stepdefs   - Navigate to Shipping Page !!
+2021-11-04 02:13:10 INFO  stepDefinitions.stepdefs   - Navigate to Payment Page !!
+2021-11-04 02:13:26 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:13:40 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:13:52 INFO  stepDefinitions.stepdefs   - User clicks WOMEN tab from menu bar !!
+2021-11-04 02:14:00 INFO  stepDefinitions.stepdefs   - Product successfully added to your shopping cart
+2021-11-04 02:14:16 INFO  stepDefinitions.stepdefs   - Multiple items are added to the cart!!
+2021-11-04 02:14:27 INFO  stepDefinitions.stepdefs   - Navigate to Address Page !!
+2021-11-04 02:15:11 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:15:25 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:15:40 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:16:01 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:16:11 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:16:21 INFO  stepDefinitions.stepdefs   - User clicks WOMEN tab from menu bar !!
+2021-11-04 02:16:21 INFO  stepDefinitions.stepdefs   - Product successfully added to your shopping cart
+2021-11-04 02:16:57 INFO  stepDefinitions.stepdefs   - Navigate to Address Page !!
+2021-11-04 02:16:57 INFO  stepDefinitions.stepdefs   - User agrees terms and conditions !!
+2021-11-04 02:17:06 INFO  stepDefinitions.stepdefs   - Navigate to Shipping Page !!
+2021-11-04 02:17:06 INFO  stepDefinitions.stepdefs   - Navigate to Payment Page !!
+2021-11-04 02:17:13 INFO  stepDefinitions.stepdefs   - Your payment method is Pay by check
+2021-11-04 02:17:28 INFO  stepDefinitions.stepdefs   - Your order on My Store is complete message displayed !!
+2021-11-04 02:17:43 INFO  stepDefinitions.stepdefs   - Invoice is downloaded !!
+2021-11-04 02:17:56 INFO  stepDefinitions.stepdefs   - Navigate to login Page !!
+2021-11-04 02:18:07 INFO  stepDefinitions.stepdefs   - Navigate to MyAccount Page !!
+2021-11-04 02:18:16 INFO  stepDefinitions.stepdefs   - User clicks WOMEN tab from menu bar !!
+2021-11-04 02:18:21 INFO  stepDefinitions.stepdefs   - Product successfully added to your shopping cart
+2021-11-04 02:18:31 INFO  stepDefinitions.stepdefs   - Multiple items are added to the cart!!
+2021-11-04 02:18:47 INFO  stepDefinitions.stepdefs   - Navigate to Address Page !!
+2021-11-04 02:18:47 INFO  stepDefinitions.stepdefs   - User agrees terms and conditions !!
+2021-11-04 02:18:54 INFO  stepDefinitions.stepdefs   - Navigate to Shipping Page !!
+2021-11-04 02:18:54 INFO  stepDefinitions.stepdefs   - Navigate to Payment Page !!
+2021-11-04 02:19:00 INFO  stepDefinitions.stepdefs   - Your payment method is Pay by check
+2021-11-04 02:19:12 INFO  stepDefinitions.stepdefs   - Your order on My Store is complete message displayed !!
+2021-11-04 02:19:24 INFO  stepDefinitions.stepdefs   - Invoice is downloaded !!
