@@ -1,13 +1,19 @@
 package com.eCommerce.qa.pages;
 
 import com.eCommerce.qa.base.TestBase;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.io.File;
+import java.io.IOException;
 
 public class Women extends TestBase {
     static Logger logger = Logger.getLogger(Women.class);
@@ -79,16 +85,46 @@ public class Women extends TestBase {
             System.out.println("Only single is item added to the cart");
         }
 
+        File screenshot1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(screenshot1, new File(System.getProperty("user.dir")+ "/Screenshots/summary.png"));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
         ProceedToCheckout2.click();
 
         driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[1]/input")).sendKeys("sachini@gmail.com");
         driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[2]/span/input")).sendKeys("12345");
         driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[2]/button/span")).click();
 
+        File screenshot2 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(screenshot2, new File(System.getProperty("user.dir")+ "/Screenshots/address.png"));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
         ProceedToCheckout3.click();
 
         agree.click();
+
+        File screenshot3 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(screenshot3, new File(System.getProperty("user.dir")+ "/Screenshots/shipping.png"));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
         ProceedToCheckout4.click();
+
+        File screenshot4 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(screenshot4, new File(System.getProperty("user.dir")+ "/Screenshots/payment.png"));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
         logger.info("Order Confirmed!!");
 
         System.out.println("Order Confirmed");

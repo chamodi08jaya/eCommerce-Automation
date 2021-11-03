@@ -1,12 +1,18 @@
 package com.eCommerce.qa.pages;
 
 import com.eCommerce.qa.base.TestBase;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.io.File;
+import java.io.IOException;
 
 public class Payment extends TestBase {
     static Logger logger = Logger.getLogger(Payment.class);
@@ -41,6 +47,14 @@ public class Payment extends TestBase {
         }
 
         backToOrders.click();
+
+        File screenshot5 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(screenshot5, new File(System.getProperty("user.dir")+ "/Screenshots/orderhistory.png"));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
         invoice.click();
         logger.info("payment completed");
         System.out.println("payment completed");
