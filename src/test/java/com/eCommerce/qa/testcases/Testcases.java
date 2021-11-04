@@ -28,7 +28,7 @@ public class Testcases extends TestBase {
     }
 
     @Test
-    public void LoginTest (){
+    public void AutomationTest (){
         myAccount = loginPage.login(properties.getProperty("Email"), properties.getProperty("Password"));
         PropertyConfigurator.configure("src\\log4j.properties");
         logger.info("Navigate to MyAccount Page !!");
