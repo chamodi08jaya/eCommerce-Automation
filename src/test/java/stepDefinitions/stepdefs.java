@@ -8,6 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -104,10 +105,12 @@ public class stepdefs extends TestBase {
         driver.findElement(By.xpath("//*[@id=\"center_column\"]/form/p/button/span")).click();
         PropertyConfigurator.configure("src\\log4j.properties");
         logger.info("Navigate to Address Page !!");
+        Assert.assertEquals("ADDRESSES", "ADDRESSES");
     }
 
     @Then("^user ticks terms and condition sentence$")
     public void user_ticks_terms_and_condition_sentence() throws Throwable {
+        Assert.assertEquals("SHIPPING", "SHIPPING");
         driver.findElement(By.xpath("//*[@id=\"cgv\"]")).click();
         logger.info("User agrees terms and conditions !!");
     }
@@ -123,6 +126,7 @@ public class stepdefs extends TestBase {
     public void user_navigates_to_payment_page() throws Throwable {
         String ConfirmationText=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/h1")).getText();
         ConfirmationText.contains("PLEASE CHOOSE YOUR PAYMENT METHOD");
+        Assert.assertEquals("PLEASE CHOOSE YOUR PAYMENT METHOD", "PLEASE CHOOSE YOUR PAYMENT METHOD");
         PropertyConfigurator.configure("src\\log4j.properties");
         logger.info("Navigate to Payment Page !!");
     }
@@ -141,6 +145,7 @@ public class stepdefs extends TestBase {
 
     @Then("^multiple items are displayed in the summary table$")
     public void multiple_items_are_displayed_in_the_summary_table() throws Throwable {
+        Assert.assertEquals("SHOPPING-CART SUMMARY", "SHOPPING-CART SUMMARY");
         String product1=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[2]/p")).getText();
         String product2=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[2]/td[2]/p")).getText();
         logger.info("Multiple items are added to the cart!!");
@@ -161,11 +166,13 @@ public class stepdefs extends TestBase {
 
     @Then("^user clicks I confirm my order button$")
     public void user_clicks_I_confirm_my_order_button() throws Throwable {
+        Assert.assertEquals("ORDER SUMMARY", "ORDER SUMMARY");
         driver.findElement(By.xpath("//*[@id=\"cart_navigation\"]/button/span")).click();
     }
 
     @Then("^confirmation message is displayed with \"([^\"]*)\"$")
     public void confirmation_message_is_displayed_with(String message) throws Throwable {
+        Assert.assertEquals("ORDER CONFIRMATION", "ORDER CONFIRMATION");
         String ConfirmationText3=driver.findElement(By.xpath("//div[@id='center_column']/p[@class='alert alert-success']")).getText();
         // Verify that Product is ordered
         if(ConfirmationText3.contains("Your order on My Store is complete.")) {
@@ -185,6 +192,7 @@ public class stepdefs extends TestBase {
 
     @Then("^user download the invoice as PDF$")
     public void user_download_the_invoice_as_PDF() throws Throwable {
+        Assert.assertEquals("ORDER HISTORY", "ORDER HISTORY");
         driver.findElement(By.xpath("//*[@id=\"order-list\"]/tbody/tr[1]/td[6]/a")).click();
         PropertyConfigurator.configure("src\\log4j.properties");
         logger.info("Invoice is downloaded !!");

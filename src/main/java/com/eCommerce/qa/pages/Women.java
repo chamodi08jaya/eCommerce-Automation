@@ -4,6 +4,7 @@ import com.eCommerce.qa.base.TestBase;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -74,6 +75,7 @@ public class Women extends TestBase {
         logger.info("There are 2 items in your cart.");
 
         proceedToCheckout1.click();
+        Assert.assertEquals("SHOPPING-CART SUMMARY", "SHOPPING-CART SUMMARY");
 
         String product1=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[2]/p")).getText();
         String product2=driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[2]/td[2]/p")).getText();
@@ -93,10 +95,13 @@ public class Women extends TestBase {
         }
 
         ProceedToCheckout2.click();
+        Assert.assertEquals("Sign in", "Sign in");
 
         driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[1]/input")).sendKeys("sachini@gmail.com");
         driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/div[2]/span/input")).sendKeys("12345");
         driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[2]/button/span")).click();
+
+        Assert.assertEquals("ADDRESSES", "ADDRESSES");
 
         File screenshot2 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
@@ -106,6 +111,7 @@ public class Women extends TestBase {
         }
 
         ProceedToCheckout3.click();
+        Assert.assertEquals("SHIPPING", "SHIPPING");
 
         agree.click();
 
@@ -117,6 +123,7 @@ public class Women extends TestBase {
         }
 
         ProceedToCheckout4.click();
+        Assert.assertEquals("PLEASE CHOOSE YOUR PAYMENT METHOD", "PLEASE CHOOSE YOUR PAYMENT METHOD");
 
         File screenshot4 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {

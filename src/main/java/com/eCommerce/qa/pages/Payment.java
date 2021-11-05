@@ -4,6 +4,7 @@ import com.eCommerce.qa.base.TestBase;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -35,7 +36,9 @@ public class Payment extends TestBase {
         PayByCheck.click();
         PropertyConfigurator.configure("src\\log4j.properties");
         logger.info("Your payment method is Pay by check");
+        Assert.assertEquals("ORDER SUMMARY", "ORDER SUMMARY");
         confirmOrder.click();
+        Assert.assertEquals("ORDER CONFIRMATION", "ORDER CONFIRMATION");
 
         String ConfirmationText3=driver.findElement(By.xpath("//div[@id='center_column']/p[@class='alert alert-success']")).getText();
         // Verify that Product is ordered
@@ -47,6 +50,7 @@ public class Payment extends TestBase {
         }
 
         backToOrders.click();
+        Assert.assertEquals("ORDER HISTORY", "ORDER HISTORY");
 
         File screenshot5 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {

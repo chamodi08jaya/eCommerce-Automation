@@ -94,3 +94,14 @@
 2021-11-04 22:30:15 INFO  com.eCommerce.qa.pages.Payment   - payment completed
 2021-11-04 22:30:15 INFO  com.eCommerce.qa.testcases.Testcases   -  Confirm Order!!
 2021-11-04 22:30:15 INFO  com.eCommerce.qa.testcases.Testcases   -  Invoice is downloaded as PDF!!
+2021-11-05 22:57:39 INFO  com.eCommerce.qa.testcases.Testcases   - Navigate to MyAccount Page !!
+2021-11-05 22:57:39 INFO  com.eCommerce.qa.testcases.Testcases   - Select Women as clothing type !!
+2021-11-05 22:57:44 INFO  com.eCommerce.qa.testcases.Testcases   -  Add to cart!!
+2021-11-05 22:57:44 INFO  com.eCommerce.qa.testcases.Testcases   -  Choosing Payment Method!!
+2021-11-05 22:57:44 INFO  com.eCommerce.qa.pages.Women   - Product successfully added to your shopping cart
+2021-11-05 22:57:46 INFO  com.eCommerce.qa.pages.Women   - There are 2 items in your cart.
+2021-11-05 22:58:00 INFO  com.eCommerce.qa.pages.Women   - Order Confirmed!!
+2021-11-05 22:58:02 INFO  com.eCommerce.qa.pages.Payment   - Your payment method is Pay by check
+2021-11-05 22:58:09 INFO  com.eCommerce.qa.pages.Payment   - payment completed
+2021-11-05 22:58:09 INFO  com.eCommerce.qa.testcases.Testcases   -  Confirm Order!!
+2021-11-05 22:58:09 INFO  com.eCommerce.qa.testcases.Testcases   -  Invoice is downloaded as PDF!!
