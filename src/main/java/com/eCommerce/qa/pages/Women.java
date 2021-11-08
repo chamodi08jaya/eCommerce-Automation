@@ -114,6 +114,7 @@ public class Women extends TestBase {
         Assert.assertEquals("SHIPPING", "SHIPPING");
 
         agree.click();
+        Assert.assertTrue(agree.isSelected());
 
         File screenshot3 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
